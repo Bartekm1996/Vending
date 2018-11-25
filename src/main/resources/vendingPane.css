@@ -1,0 +1,16 @@
+@font-face {
+    font-family: digital-7;
+    src: url("/digital-7.ttf");
+}
+
+#frontLabel{
+    -fx-font-size: 32px;
+    -fx-font-family: digital-7;
+    -fx-text-fill: black;
+}
+
+#backLabel{
+    -fx-font-size: 32px;
+    -fx-font-family: digital-7;
+    -fx-text-fill: lightgrey;
+}

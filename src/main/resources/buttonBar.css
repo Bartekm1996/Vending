@@ -1,0 +1,42 @@
+.button{
+    -fx-min-width: 16px;
+    -fx-min-height: 16px;
+    -fx-max-width: 16px;
+    -fx-max-height: 16px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+
+#closeButton {
+    -fx-background-color:
+            linear-gradient(#ff5400, #be1d00),
+            linear-gradient(#fd5000, #fe4500),
+            linear-gradient(#ff5400, #fb2954),
+            linear-gradient(#ff5400 0%, #ff7909 50%, #ff5400 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+#closeButton:hover{
+    -fx-background-image: url("/closeButton.png");
+    -fx-background-size: 10px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#miniButton{
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+}
+
+#miniButton:hover{
+    -fx-background-image: url("/minifyButton.png");
+    -fx-background-size: 10px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+

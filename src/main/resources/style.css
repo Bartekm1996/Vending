@@ -1,0 +1,106 @@
+.grid-pane{
+    -fx-background-color: white;
+}
+
+.root{
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+    -fx-background-insets: 5 5 5 5;
+}
+
+.label{
+    -fx-text-fill: deepskyblue;
+}
+
+#priceLabel{
+    -fx-font-family: digital-7;
+    -fx-font-size: 20px;
+}
+
+.text-field{
+
+    -fx-background-color:-fx-text-box-border, white;
+    -fx-prompt-text-fill: deepskyblue;
+    -fx-background-insets: 0, 0 0 1 0 ;
+
+}
+
+.password-field {
+    -fx-background-color: -fx-text-box-border,white;
+    -fx-prompt-text-fill: deepskyblue;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.button{
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: white;
+}
+
+.hyperlink{
+    -fx-text-fill:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+}
+
+.hyperlink:focused{
+    -fx-border-color: null ;
+    -fx-border-width: 0px;
+}
+
+.hyperlink:pressed{
+    -fx-underline: inherit;
+}
+
+.hyperlink:hover{
+    -fx-underline: inherit;
+}
+
+#userNameField{
+    -fx-text-fill: deepskyblue;
+}
+
+#passWordField{
+    -fx-text-fill: deepskyblue;
+}
+
+#meLabel{
+    -fx-text-fill: deepskyblue;
+    -fx-font-size: 22px;
+}
+
+#enterPasswordLabel{
+    -fx-text-fill: deepskyblue;
+    -fx-font-size: 20px;
+    -fx-font-family: "DejaVu Serif'Bold";
+}
+.check-box .box {
+
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-min-width: 16px;
+    -fx-min-height: 16px;
+    -fx-max-height: 16px;
+    -fx-max-width: 16px;
+    -fx-background-radius: 8px;
+}
+.check-box:selected .box {
+    -fx-focus-color: deepskyblue;
+}
+
+.check-box:hover .box {
+    -fx-focuse-color: deepskyblue;
+}
+
+.check-box .text {
+    -fx-text-fill: deepskyblue;
+}
+
+.check-box .label{
+    -fx-text-fill: deepskyblue;
+}
+
+.menu-bar:hover{
+    -fx-focus-color: -fx-background-color;
+}
